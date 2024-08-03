@@ -19,9 +19,9 @@
 		64191E402C5E374D00080137 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		64191E422C5E374E00080137 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		64191E452C5E374E00080137 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		64191E4C2C5E381000080137 /* Config.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Config.xcconfig; sourceTree = "<group>"; };
 		64191E4E2C5E3BD300080137 /* My-Vinyl-Collection-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "My-Vinyl-Collection-Info.plist"; sourceTree = SOURCE_ROOT; };
 		64191E4F2C5EBE9A00080137 /* Readme.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Readme.md; sourceTree = "<group>"; };
+		FED4A5882C5EC47E00D77293 /* Config.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Config.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,7 +59,7 @@
 				64191E402C5E374D00080137 /* ContentView.swift */,
 				64191E422C5E374E00080137 /* Assets.xcassets */,
 				64191E442C5E374E00080137 /* Preview Content */,
-				64191E4C2C5E381000080137 /* Config.xcconfig */,
+				FED4A5882C5EC47E00D77293 /* Config.xcconfig */,
 				64191E4F2C5EBE9A00080137 /* Readme.md */,
 			);
 			path = "My Vinyl Collection";
@@ -153,7 +153,7 @@
 /* Begin XCBuildConfiguration section */
 		64191E472C5E374E00080137 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 64191E4C2C5E381000080137 /* Config.xcconfig */;
+			baseConfigurationReference = FED4A5882C5EC47E00D77293 /* Config.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
@@ -217,7 +217,7 @@
 		};
 		64191E482C5E374E00080137 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 64191E4C2C5E381000080137 /* Config.xcconfig */;
+			baseConfigurationReference = FED4A5882C5EC47E00D77293 /* Config.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
