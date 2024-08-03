@@ -13,34 +13,39 @@ struct ContentView: View {
     
     
     var body: some View {
-        VStack(alignment: .leading) {
+        VStack(alignment: .leading, spacing: 20) {
             Text("Login credentials")
                 .font(.largeTitle)
                 .bold()
+                .padding(.bottom, 15)
             
-            HStack {
-                Text("Username:")
+            VStack(alignment: .leading) {
+                Text("Username")
                     .bold()
-                TextField("User id", text: $uid)
+                TextField("Entre your user id", text: $uid)
                     .textFieldStyle(.roundedBorder)
-                    .frame(width: /*@START_MENU_TOKEN@*/100/*@END_MENU_TOKEN@*/)
-                Spacer()
+                    .frame(width: 300)
             }
             
-            HStack {
-                Text("Password:")
+            VStack(alignment: .leading) {
+                Text("Password")
                     .bold()
                 
-                SecureField("Password", text: $passwd)
+                SecureField("Enter your password", text: $passwd)
                     .textFieldStyle(.roundedBorder)
                     .frame(width: 300)
                 
                 Button("Go") {
                     // ToDo: Process the user's input
                 }
+                .font(.headline)
+                .frame(width: 200)
                 .padding()
+                .background(.green)
+                .foregroundColor(.white)
+                .cornerRadius(10)
                 
-                Spacer()
+//                Spacer()
             }
         }
         .padding()
